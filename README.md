@@ -40,3 +40,6 @@ $ git push.
 
 eh bakal ada istilah repository dan branch loh.... 
 nah, lets go
+
+### kenapa clone lewat ssh daripada https ?
+==> because is , harus login terus untuk masuk ke git.hub nya. jadi mending pake ssh aja deh 
