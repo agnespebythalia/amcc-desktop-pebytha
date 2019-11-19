@@ -43,3 +43,8 @@ nah, lets go
 
 ### kenapa clone lewat ssh daripada https ?
 ==> because is , harus login terus untuk masuk ke git.hub nya. jadi mending pake ssh aja deh 
+
+#### alasan menggunakan bahasa phyton
+=> karena kita telah memasuki dunia IT itu untuk bekerja di perusahan, dan you should know ! dunia perusahaan sekarang lebih memilih menggunakan python loh
+lebih efektif dan lebih multiplatform dan juga top 3 di dunia. dengan bahasa penggunaan terbanyak. bersaing dengan java dan PHP. 
+
