@@ -48,3 +48,12 @@ nah, lets go
 => karena kita telah memasuki dunia IT itu untuk bekerja di perusahan, dan you should know ! dunia perusahaan sekarang lebih memilih menggunakan python loh
 lebih efektif dan lebih multiplatform dan juga top 3 di dunia. dengan bahasa penggunaan terbanyak. bersaing dengan java dan PHP. 
 
+# MEMULAI DENGAN PYTHON 
+- Pastikan phyton sudah terinstall di Kompumter anda. 
+- nah untuk mengecek nya itu ketikkan pada git bash nya
+```$ python --version``` terus enter deh 
+- nah akan muncul 
+python 3.7.5 atau sesuai versi yang anda download
+
+
+
