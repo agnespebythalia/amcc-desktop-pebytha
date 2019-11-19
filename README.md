@@ -55,5 +55,8 @@ lebih efektif dan lebih multiplatform dan juga top 3 di dunia. dengan bahasa pen
 - nah akan muncul 
 python 3.7.5 atau sesuai versi yang anda download
 
+## bagaimana jika python belum terinstall 
+ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 
+_tapi sebelum itu coba kamu daftar dikoding dulu ya gaess :)_
 
 
