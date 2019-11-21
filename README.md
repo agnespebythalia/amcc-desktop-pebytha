@@ -1,3 +1,120 @@
+# Cara Instal Visual Studio Code di Windows, Linux dan MacOS
+
+Visual Studio Code merupakan IDE Pemrograman yang bisa digunakan untuk banyak sekali bahasa pemrograman.
+
+Visual Studio Code diluncurkan pertama kali pada tanggal 29 April 2015 oleh Microsoft dengan tujuan untuk membantu para programmer dalam mengembangkan program-program mereka.
+
+Visual Studio Code terdapat beberapa fitur yang membantu para programmer, fitur tersebut seperti:
+
+- Extensions yang dapat diinstal berbagai dukungan bahasa pemrograman
+- Ikon & Tema
+- Fitur debugger dan problems untuk mengetahui warning dan error pada source yang kita tulis
+- Integrasi dengan git dan
+- Terminal
+- Pada Windows, terminal Visual Studio Code dapat menggunakan PowerShell maupun CMD. Sedangkan pada linux terminal yang digunakan adalah Bash.
+
+# Install VS Code Windows
+Untuk menginstall Visual Studio Code di Windows, Anda dapat mendownload master filenya melalui link di bawah.
+
+Pertama download terlebih dahulu master instalasi Visual Studio Code pada link di atas. Apabila telah di download, buka file instalasinya dan tekan next.
+
+Pada form persetujuan Lisensi, tekan I accept the agreement kemudian tekan next.
+
+Selanjutnya tekan next hingga instalasi selesai.
+
+# install VS Code Linux
+Terdapat tiga versi untuk menginstal Visual Studio Code di linux. Mana yang Anda pilih?
+
+Tergantung distro linux apa yang Anda gunakan.
+
+## 1. Ubuntu, Debian
+Untuk melakukan instalasi pada Ubuntu, langkah pertama yaitu dengan menambahkan repositori dan key.
+
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+Setelah itu, Update repositori dan instal VS Code.
+
+sudo apt-get update
+sudo apt-get install code # or code-insiders
+
+## 2. RHEL, Fedora, dan CentOS
+Untuk melakukan instalasi, langkah pertama yaitu dengan menambahkan repositori dan key.
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+Setelah itu, Update repositori dan instal VS Code.
+
+dnf check-update
+sudo dnf install code
+
+## 3. openSUSE dan SLE
+Untuk melakukan instalasi, langkah pertama yaitu dengan menambahkan repositori dan key.
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/vscode.repo'
+Setelah itu, Update repositori dan instal VS Code.
+
+sudo zypper refresh
+sudo zypper install code
+Install VS Code MacOS
+Untuk menginstall Visual Studio Code di Windows, Anda dapat mendownload master filenya melalui link di bawah.
+
+icon-software
+Visual Studio Code
+icon-download
+Cara Instal Di Mac OS
+Ini adalah cara yang paling mudah. Pertama download terlebih dahulu Visual Studio Code pada link di atas.
+
+Setelah di download, langsung buka aplikasi tersebut. Visual Studio Code bisa langsung digunakan.
+
+Penutup
+Itulah beberapa cara instalasi visual studio code di Windows, Linux, dan Mac OS. Setelah penginstalan selesai, VS Code sudah dapat digunakan untuk menuliskan dan menjalankan kode Anda.
+_______________________________________________________________________________________________________________________________
+
+# Cara Install Python di Windows
+## Python
+Pemrograman Python
+
+Instalasi python di Windows sangat gampang. Langkah-langkanya sama seperti menginstal software Windows pada umumnya, next-next-finish.
+
+Tapi ada konfigurasi yang harus dipilih ditengah-tengah proses instalasi, agar perintah Python dapat dikenali di CMD.
+
+Python yang akan di instal dalam panduan ini adalah python versi 3. Download di situs resmi python (python.org).
+
+## Download Python
+1. Buka File python-3.msi
+Setelah download selesai, kita akan mendapatkan file python-3.4.2.msi. File python-3.4.2.msi adalah file instalator python. File ini akan melakukan instalasi ke sistem windows.
+
+Klik ganda untuk mengeksekusinya.
+
+2. Pilih Pengguna
+Pada tahapan ini kita akan diminta untuk memilih siapa saja yang boleh memakai python.
+
+Pilih saja ‘Install for all users’ agar bisa dipakai untuk semua user di komputernya.
+
+
+3. Lokasi Instalasi
+Tentukan lokasi python akan diinstal. Biarkan saja di C:\python34\, kemudian klik next.
+
+
+4. Kostumisasi
+Pada tahapan ini, kita akan menentukan fitur-fitur yang akan diinstal.
+
+Jangan lupa untuk mengaktifkan ‘Add python.exe to path’ agar perintah python dikenali pada CMD (Command Prompt).
+
+Kustomisasi Python
+
+5. Selesai…
+Klik finish untuk menyelesaikan.
+
+Instalasi Python Selesai
+
+Berhasil…
+sumber Artikel >>https://www.petanikode.com/python-windows/
+### NOTE : Bagi yang menggunakan LINUX python itu sudah Otomatis. tinggal ketikkan pada terminal
+python --version.
+________________________________________________________________________________________________________________________________
 
 # 1. Cara Install Git di Linux
 Instalasi Git pada Distro keluarga Debian dapat menggunakan perintah *apt*.
@@ -99,6 +216,8 @@ Konfigurasi core.editor bersifat opsional. Sedangkan name dan email wajib.
 Jika kamu memiliki akun Github, Gitlab, Bitbucket atau yang lainnya…
 maka username dan email harus mengikuti akun tersebut agar mudah diintegrasikan.# amcc-desktop-pebytha
 projek pelatihan member amcc 2019/2020
+________________________________________________________________________________________________________________________________
+* Let's TRY !! *
 
 # amcc-desktop-apthalie
 projek pelatihan phyton dan github amcc desktop
