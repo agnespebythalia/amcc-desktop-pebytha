@@ -278,3 +278,83 @@ ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?
 _tapi sebelum itu coba kamu daftar dikoding dulu ya gaess :)_
 
 
+## Alasan menggunakan bahasa python
+Efektifitas Python cukup terbukti dengan banyaknya jumlah pengguna Bahasa ini. Berbagai survei memasukkan Python dalam top-3 sebagai bahasa dengan penggunaan terbanyak, bersaing dengan Java dan PHP. Python dapat digunakan dalam mengakomodasi berbagai gaya pemrograman, termasuk structured, prosedural, berorientasi-objek, maupun fungsional. Python juga dapat berjalan pada berbagai sistem operasi yang tersedia. Beberapa pemanfaatan bahasa Python di antaranya:
+
+1. Web development (server-side),
+2. Software development,
+3. Mathematics & data science,
+4. Machine learning,
+5. System scripting.
+
+## Memulai dengan Python
+Pastikan anda sudah mengisntal Python, dengan cara tulis "python --version" pada cmd/ git bash anda
+
+## Bagaimana jika python belum ter-instal ?
+Maka ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (Dengan syarat harus daftar akun dicoding terlebih dahulu)
+
+## Hello World dengan python
+Masuk ke direktori folder repository ini dengan cara:
+```bash
+cd /path/nama-direktori
+```
+catatan : path disini merupakan nama-nama direktori diatas direktori repositori ini, seperti misalnya Document
+1. buat sebuah file baru dengan nama main.py, caranya seperti berikut
+```
+nano main.py
+```
+2. Masukkan code berikut di dalam main.py
+```python
+print('Hello world')
+```
+3. Jalankan file tersebut dengan cara
+```bash
+python main.py
+```
+4. Hasil output harusnya sesuai dengan inputannya, yaitu:
+```
+Hello world
+```
+
+# python interpreter
+1. intrepreter merupakan program yang dibaca dan dieksekusi pada sebuah sesi pada command line, uuntuk masuk ke intrepeter caranya sebagai berikut :
+- buka cmd (windows) / terminal (linux/macos) >> ketikkan 'python'
+
+```python 
+py
+Python 3.7.5 (tags/v3.7.5:5c02a39a0b, Oct 14 2019, 23:09:19) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+```
+# menggunakan modul
+module merupakan set program yang sudah disediakan oleh python yang tiinggal pakai contohnya adakah seperti in : 
+```python
+>>> import datetime 
+>>> datetime.datetime.now()
+datetime.datetime(2019, 12, 1, 21, 39, 54, 301054)
+formatnya itu 
+(tahun,bulan,tanggal,jam,menit,detik,milidetik)
+
+``` python 
+>>> import random
+>>> import string 
+>>> def randomword(length):
+...     letters = string.ascii_lowercase
+...     return ''.join(random.choice(letters) for i in range(length))
+...
+>>> random_name(2)
+'fd'
+>>> random_name(29)
+'rvkigvbureidixobtylqowqhuqvtm'
+```
+lalu kita bakal membuat program untuk mengacak nama dari seluruh pelatihan desktop programming amcc dengan contoh kode berikut ini :
+``` python
+>>> import random
+>>> import string 
+>>> def randomword(length):
+...     name = ('david','sabil','peby','agung','yanuar')
+...     return ''.join(random.choice(name) for i in range(1))
+...
+>>> random_name
+>>> 'david'
+```
+# 
