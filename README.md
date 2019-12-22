@@ -357,4 +357,72 @@ lalu kita bakal membuat program untuk mengacak nama dari seluruh pelatihan deskt
 >>> random_name
 >>> 'david'
 ```
-# 
+# fungsion 
+cirikhasnya menggunakan keyword 
+def nama fungsi(param):
+    identasi 
+return adalah nilai kembalian. 
+pemanggilannya hanya menggunakan namafungsi(isi parameternya)
+def foo(x):
+    if len(x)<8:
+        print("password anda kurang dari 8")
+        print("jumlah karakternya",len(x))
+    else:
+        print('password anda berhasil')
+        print("jumlah karakternya",len(x))
+
+print(foo("agnespebythalia"))
+
+### control flow
+angka=24
+run=True
+while run:
+    x=int(input('masukkan angka:'))  
+    if x == angka:
+        print("angka yang benar")
+        run=False
+    elif x < angka:
+        print("angka lebih besar sedikit")
+    elif x > angka :
+        print("angka lebih kecil lagi")
+    else:
+        print("angka yg anda masukkan kejauhan ")
+
+#ini untuk fungsi memanggil tipe data tupple dan dict
+def total (*size, **nilai):
+    for i in size:
+        print('ukuran sepatunya :',i)
+        
+    for key, value in nilai.items():
+        print(key.capitalize(),value)
+total(42, 43, 39, 36, david=70, sabil=80, yanuar=78, peby=81)
+// output
+ukuran sepatunya : 42
+ukuran sepatunya : 43
+ukuran sepatunya : 39
+ukuran sepatunya : 36
+David 70
+Sabil 80
+Yanuar 78
+Peby 81
+
+angka=24
+x=int(input('masukkan angka:'))
+    
+if x == angka:
+    print("angka yang benar")
+elif x < angka:
+    print("angka lebih besar sedikit")
+elif x > angka :
+    print("angka lebih kecil lagi")
+else:
+    print("angka yg anda masukkan kejauhan ")
+
+    run=True
+while run:
+        s = input('ketikkan nama :')        
+        if s=='keluar':
+            print('selesai')
+            run=False
+        else:
+            print('panjang karakter :',len(s))
